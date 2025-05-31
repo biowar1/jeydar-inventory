@@ -1,0 +1,25 @@
+# Firebase credentials
+credentials.json
+firebase-credentials.json
+serviceAccountKey.json
+
+# Streamlit secrets
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Environment variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
