@@ -11,32 +11,7 @@ def app():
     analytics, and reporting capabilities.
     """)
     
-    # Features section
-    st.subheader("🚀 Features")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        ### Core Features
-        - ✅ **Real-time Inventory Tracking**
-        - ✅ **Multi-user Support**
-        - ✅ **Role-based Access Control**
-        - ✅ **Category Management**
-        - ✅ **Stock Level Monitoring**
-        - ✅ **Low Stock Alerts**
-        """)
-    
-    with col2:
-        st.markdown("""
-        ### Analytics & Reporting
-        - 📊 **Interactive Dashboards**
-        - 📈 **Inventory Analytics**
-        - 📋 **Custom Reports**
-        - 💰 **Value Tracking**
-        - 📥 **Data Export (CSV)**
-        - 🔍 **Search & Filter**
-        """)
+
     
     st.markdown("---")
     
