@@ -15,36 +15,7 @@ def app():
     
     st.markdown("---")
     
-    # Technology stack
-    st.subheader("🛠️ Technology Stack")
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.markdown("""
-        **Frontend**
-        - Streamlit
-        - Plotly
-        - Pandas
-        """)
-    
-    with col2:
-        st.markdown("""
-        **Backend**
-        - Firebase Firestore
-        - Firebase Admin SDK
-        - Python
-        """)
-    
-    with col3:
-        st.markdown("""
-        **Deployment**
-        - Streamlit Cloud
-        - GitHub Integration
-        - Environment Variables
-        """)
-    
-    st.markdown("---")
+   
     
     # User guide
     st.subheader("📖 Quick Start Guide")
