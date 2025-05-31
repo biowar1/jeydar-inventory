@@ -67,8 +67,6 @@ def authenticate_user(username, password):
         st.error(f"Authentication error: {e}")
         return None
 
-        return None
-
 def find_user_by_email(email):
     """Find user by email address"""
     db = get_db()
